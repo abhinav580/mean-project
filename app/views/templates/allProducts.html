@@ -11,7 +11,7 @@
 		    		<ul class="list-group list-group-flush">
 						<li class="list-group-item">Name : {{ item.productName }}</li>
 					    <li class="list-group-item">Category : {{ item.category }}</li>
-					    <li class="list-group-item">Owner : {{ item.owner.firstName }}</li>
+					    <li class="list-group-item">Owner : {{ item.owner.firstName }} {{ item.owner.lastName }}</li>
 		  			</ul>
 		    		<a class="btn btn-primary" ng-href="#/product/{{ item._id }}" style="margin-top: 1rem;"> Know more</a>
 		    	</div>

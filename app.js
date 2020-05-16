@@ -34,7 +34,7 @@ app.use(express.static(__dirname +'/app/views'));
 var dbPath = "mongodb://rahul09:rahul@ds133296.mlab.com:33296/shopcart";
 
 // For EDWISOR assignment - purpose > uncomment this line
-// var dbPath = "mongodb://localhost/shopCart";
+//var dbPath = "mongodb://localhost/shopCart";
 db = mongoose.connect(dbPath);
 
 mongoose.connection.once('open',function(){
