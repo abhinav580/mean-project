@@ -1,5 +1,4 @@
-    </br>
-    </br>
+
       <!--  SINGLE PRODUCT DETAIL -->
       <div class="row text-center">
 
@@ -8,8 +7,11 @@
               <button class="btn btn-muted" ng-click="edDelCtrl.showHide()">Edit</button>
                <button class="btn btn-danger" ng-click="edDelCtrl.deleteProduct()">Delete</button>
              </div>
-		    		<div class="row">
-		    			<div class="col-12 col-sm-6 offset-sm-3">
+		    		<div class="row" style="padding: 2em;">
+              <div class="col-12 col-sm-6">
+                <img src="./../images/images.jfif" style="width: 100%; height: 100%;">
+              </div>
+		    			<div class="col-12 col-sm-6">
 		    				<h3> Name : {{ edDelCtrl.product.productName }}</h3>
 		    			 	<hr>
 		    			 	<h4> Brand : {{ edDelCtrl.product.color }}</h4>
