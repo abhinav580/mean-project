@@ -1,12 +1,8 @@
 
-<<<<<<< HEAD
-# E-Commerce application using MEAN STACK :grinning:
-=======
 # Bech Daal 
 
 It is a dummy OLX app which serves the purpose of buying and selling old products.
 
->>>>>>> 889b1c6e196e302af3a289ace30923797d88a427
 FOLLOWING ARE THE API END POINTS AVAILABLE IN THIS APPLICATION
 
 ```
@@ -31,8 +27,6 @@ FOLLOWING ARE THE API END POINTS AVAILABLE IN THIS APPLICATION
      * password/forgot : FORGOT password page
 
      * password/update : Update password
-<<<<<<< HEAD
-=======
 
 ```
 
@@ -55,4 +49,3 @@ INSTRUCTIONS TO RUN ON DOCKER
 2. Open 192.168.0.23:8000 on browser
 
 ```
->>>>>>> 889b1c6e196e302af3a289ace30923797d88a427

@@ -31,12 +31,8 @@ app.use(express.static(__dirname +'/app/views'));
 
 //Establishing database connection
 // USING MLAB'S DATABASE ACCOUNT -For HEROKU Purpose
-<<<<<<< HEAD
 var dbPath="mongodb+srv://kruthika:kruthika@cluster0-0rzcs.mongodb.net/test?retryWrites=true&w=majority";
 //var dbPath = "mongodb+srv://kruthika:kruthika@meanolx-0rzcs.mongodb.net/test?retryWrites=true&w=majority";
-=======
-var dbPath = "mongodb://rahul09:rahul@ds133296.mlab.com:33296/shopcart";
->>>>>>> 889b1c6e196e302af3a289ace30923797d88a427
 
 // For EDWISOR assignment - purpose > uncomment this line
 //var dbPath = "mongodb://localhost/shopCart";
@@ -96,17 +92,9 @@ app.use(function(err,req,res,next){
 });  
 
 // PORT DECLARATION
-<<<<<<< HEAD
 var port = process.env.PORT || 8000 ;
 
 
 app.listen(port, function () {
   console.log('Example app listening on port 8000!');
-=======
-var port = process.env.PORT || 3000 ;
-
-
-app.listen(port, function () {
-  console.log('Example app listening on port 3000!');
->>>>>>> 889b1c6e196e302af3a289ace30923797d88a427
 });
