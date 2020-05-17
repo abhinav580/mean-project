@@ -1,5 +1,8 @@
 
-# E-Commerce application using MEAN STACK :grinning:
+# Bech Daal 
+
+It is a dummy OLX app which serves the purpose of buying and selling old products.
+
 FOLLOWING ARE THE API END POINTS AVAILABLE IN THIS APPLICATION
 
 ```
@@ -24,3 +27,10 @@ FOLLOWING ARE THE API END POINTS AVAILABLE IN THIS APPLICATION
      * password/forgot : FORGOT password page
 
      * password/update : Update password
+
+INSTRUCTIONS TO RUN WITHOUT DOCKER
+
+1. Clone the repo: https://github.com/PoojaK97/BechDaal.git
+2. Change into the directory
+3. Run: npm install
+4. Run: npm start
