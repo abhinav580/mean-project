@@ -46,6 +46,6 @@ INSTRUCTIONS TO RUN ON DOCKER
 ```
 
 1. Run: docker run kruthikakalmali/bech-daal
-2. Open 192.168.0.23:8000 on browser
+2. Open port 8000
 
 ```
