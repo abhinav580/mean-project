@@ -49,3 +49,6 @@ INSTRUCTIONS TO RUN ON DOCKER
 2. Open "http://<replace with The ip address that your docker is configured with>:8000"
 
 ```
+
+YOU CAN ACCESS THE APP HERE (HOSTED ON PIVOTAL-CLOUD FOUNDRY)
+https://bech-daal.cfapps.io
