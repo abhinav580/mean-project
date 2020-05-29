@@ -10,7 +10,7 @@
     "cookie-parser": "^1.4.3",
     "express": "^4.17.1",
     "express-session": "^1.15.6",
-    "mongoose": "latest",
+    "mongoose": "^5.9.16",
     "morgan": "latest",
     "nodemailer": "^4.4.0",
     "nodemon": "^2.0.4"
