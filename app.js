@@ -31,7 +31,8 @@ app.use(express.static(__dirname +'/app/views'));
 
 //Establishing database connection
 // USING MLAB'S DATABASE ACCOUNT -For HEROKU Purpose
-var dbPath="mongodb+srv://kruthika:kruthika@cluster0-0rzcs.mongodb.net/test?retryWrites=true&w=majority";
+var dbPath="mongodb+srv://abhinav:abhinav@cluster0-es9e4.mongodb.net/test?retryWrites=true&w=majority";
+//var dbPath="mongodb+srv://kruthika:kruthika@cluster0-0rzcs.mongodb.net/test?retryWrites=true&w=majority";
 //var dbPath = "mongodb+srv://kruthika:kruthika@meanolx-0rzcs.mongodb.net/test?retryWrites=true&w=majority";
 
 // For EDWISOR assignment - purpose > uncomment this line

@@ -7,6 +7,12 @@
                controller : "LoginController",
                controllerAs : "loginCtrl"
             })
+                .when("/about",{
+               templateUrl : "about.html",
+               controller : "LoginController",
+               controllerAs : "loginCtrl"
+            })
+
             .when("/user/dashboard",{
               templateUrl : "templates/dashboard.html",
               controller : "DashController",

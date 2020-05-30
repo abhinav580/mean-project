@@ -21,28 +21,20 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
-<body ng-controller = "LoginController as loginCtrl">
+<body>
 	
    <nav class="navbar navbar-inverse bg-inverse fixed-top">
      <div class="container navi-flex">
        <div class="navbar-header">
           <a class="navbar-brand" style="color: ghostwhite;">Project Name</a>
+          <a class="navbar-brand" href="about.html" style="color: ghostwhite;">About</a>
         </div>
-        
-          <ul class="list-inline" style="color: ghostwhite;">
-            <li class="list-inline-item" ng-if="showHome">
-              <a class="anchor-style" ng-href="#/user/dashboard">Home</a>
-            </li>
-            <li class="list-inline-item" ng-if="showCart">
-              <a class="anchor-style" ng-href="#/cart/all">My-Cart</a>
-            </li>
-            <li class="list-inline-item" ng-if="showLogout">
-              <a class="anchor-style" ng-href="/user/logout">Logout</a>
-            </li>
-          </ul>
+
       </div>  
   </nav> 
 
+  <br><br><br>
+    Hello World
      <div class="container-fluid view" ng-view>
      </div>
     <footer>
@@ -55,7 +47,7 @@
             <span><i class="fa fa-linkedin fa-2x"></i></span>
           </a>
           <h5 style="margin: 1rem;" class="text-muted">
-            <i>Developed By Hafez Ahmed <i>(IT major)</i></i>
+            <i>&#169; PROJECT </i>
           </h5>
           <a href="https://www.linkedin.com/" target="blank">
               <span><i class="fa fa-linkedin fa-2x"></i></span>
